@@ -1,0 +1,30 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "FEVnet1"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "subnet1Prefix": {
+      "value": "10.0.0.0/24"
+    },
+    "subnet1Name": {
+      "value": "FEVnet1Hub"
+    },
+    "subnet2Prefix": {
+      "value": "10.0.1.0/24"
+    },
+    "subnet2Name": {
+      "value": "FEVnet1Spoke1"
+    },
+    "subnet3Prefix": {
+      "value": "10.0.255.0/26"
+    },
+    "subnet3Name": {
+      "value": "GatewaySubnet"
+    }
+  }
+}
